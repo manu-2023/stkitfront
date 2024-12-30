@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+
+#bg-sign {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-color:#F6F6F6;
+}
+
+#sign-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover; /* Ensure the image covers the screen */
+    top: 0;
+    left: 0;
+}
+
+#card {
+    position: absolute;
+    background-color:#F6F6F6;
+    margin-bottom: 0.8%;
+    padding: 20px;
+    width: 100vw;
+    max-width: 650px;
+    min-height: 800px;
+    box-sizing: border-box;
+}
+
+#inputs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#textbox-sign {
+    outline: 0.3px solid black;
+    margin-top:5%;
+    width: 150%;
+    height: 5.5vh;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#textbox-date {
+    outline: 0.3px solid black;
+    margin-top:0.8%;
+    width: 150%;
+    height: 5.5vh;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#dob {
+    margin-top: 2.5%;
+    margin-left: 1%;
+    margin-bottom: 0px;
+}
+
+
+
+#otp-btn{
+    width: 70%; /* Set a consistent width for the buttons */
+    height: 5.5vh;
+    font-size: 1rem;
+    color: black;
+    outline: 1px solid black;
+    border: none;
+    cursor: pointer;
+}
+#submit-otp {
+    margin-top: 69.8%;
+    position: absolute;
+    margin-left:48% ;
+    width: 40%; /* Set a consistent width for the buttons */
+    height: 5.6vh;
+    font-size: 1rem;
+    color: black;
+    outline: 1px solid black;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+#otp-btn:hover, #submit-otp:hover {
+    color: white;
+    outline:0px;
+
+}
+
+
+
+#sign-btn {
+    margin-top: 6%;
+    width: 150%;
+    height: 5.5vh;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#otp-btn {
+    margin-top: 10px;
+}
+
+#already {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-left:50%;
+}
+
+#already a {
+    color:#0074e1;
+}
+
+#card-input-signup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+h3 {
+    margin-top: 4%;
+    margin-left: 3%;
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-size: 0.9rem;
+}
+
+
+
+
+#walksign-img{
+    height:80vh;
+    margin-left: 200%;
+}
+
+    /* #col4-sign{
+        background-color: #386163;
+    } */
+
+
+
+

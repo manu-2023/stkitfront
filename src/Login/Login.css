@@ -1,0 +1,244 @@
+@import url('https://fonts.google.com/share?selection.family=Alfa+Slab+One|Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900|Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000|Raleway:ital,wght@0,100..900;1,100..900|Rubik+Mono+One');
+
+
+
+
+
+#template {
+    background-color: #0074e1;
+    height: 300px;
+    width: 50%;
+    margin-bottom: 0px;
+}
+
+
+
+#intro {
+    background-image: url('/Images/inntro2.jpg');
+    background-size: cover;
+    height: 100vh;
+    /* Half the screen height */
+    display: flex;
+    /* Use Flexbox for centering */
+}
+
+
+#introtext {
+    font-family: 'Raleway';
+    color: white;
+    font-size: clamp(1px, 10vw, 25px);
+    margin-top: 10%;
+    margin-left: 2%;
+
+    /* animation: tracking-in-expand 3s ease-in-out forwards; */
+}
+
+#hand {
+    height: 40px;
+    margin-top: 6px;
+    margin-left: 5px;
+    position: absolute;
+}
+
+#about {
+    position: static;
+    color: white;
+    margin-left: 80%;
+    margin-top: 20%;
+    white-space: nowrap;
+    /* Prevents text from wrapping to the next line */
+    display: inline-block;
+}
+
+
+#sign {
+    position: relative;
+    margin-top: 25%;
+    margin-left: 25%;
+}
+
+
+
+
+
+/* @-webkit-keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -.5em;
+        opacity: 0
+    }
+
+    40% {
+        opacity: .6
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -.5em;
+        opacity: 0
+    }
+
+    40% {
+        opacity: .6
+    }
+
+    100% {
+        opacity: 1
+    }
+} */
+
+
+#bgg {
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#logincard {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    width: 90%;
+    height: 80%;
+    padding: 10px;
+}
+
+#textbox-login {
+    height: 8%;
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+#password {
+    height: 8%;
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+#logo-vis {
+    height: 1.5vw;
+    /* Adjust size relative to viewport width */
+    width: 1.2vw;
+    /* Adjust width proportionally */
+    margin-left: 26.5%;
+    /* Adjust margin for positioning */
+    margin-top: 14%;
+    /* Adjust top margin */
+    opacity: 0.7;
+    position: absolute;
+}
+
+#logo-vis:hover {
+    cursor: pointer;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+
+    /* For tablets and smaller screens */
+    #logo-vis {
+        height: 4vw;
+        /* Slightly larger for smaller screens */
+        width: 2vw;
+        margin-left: 20%;
+        margin-top: 12%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* For mobile screens */
+    #logo-vis {
+        height: 6vw;
+        width: 3vw;
+        margin-left: 15%;
+        margin-top: 15%;
+    }
+}
+
+
+.btn-submit {
+    margin-top: 10%;
+    background-color: #2F53EB;
+    border: none;
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+    padding: 8px;
+    transform: translateY(60%);
+    border-radius: 5px;
+    align-items: center;
+
+}
+
+.btn-submit-google {
+    background-color: #000000;
+    border: none;
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+    padding: 8px;
+    transform: translateY(120%);
+    border-radius: 5px;
+    align-items: center;
+
+}
+
+
+#login-text {
+    margin-top: 5%;
+    margin-left: 30%;
+
+}
+
+
+#forgot {
+    margin-top: 3%;
+    margin-left: 57%;
+    font-size: 13px;
+}
+
+#text-secure {
+    display: flex;
+    margin-left: 30%;
+}
+
+#spinner {
+    position: absolute;
+    top: 40%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    height: 20vh;
+}
+
+
+#load{
+    position: absolute;
+    top: 60%; 
+    left: 50.2%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    height: 20vh;
+
+    
+}

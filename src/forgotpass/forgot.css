@@ -1,0 +1,66 @@
+#forgot-bg{
+    background-color: #F4F5F9;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#forgot-card{
+    background:white;
+    height:60vh;
+    width:35vw;
+    border-radius:5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    flex-direction: column;
+    
+}
+
+
+#forgot-inputs{
+    margin-top: 1%;
+    height:6vh;
+    width:30vw;
+}
+
+
+#otp-btn-forgot{
+    margin-top: 4%;
+    width: 31vh;
+    height: 5.5vh;
+    /* background-color: #23344E; */
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 5px;
+}
+#sign-btn-forgot{
+    margin-top: 3%;
+    width: 31vh;
+    height: 5.5vh;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 5px;
+}
+
+#left-arrow-forgot{
+    height:3vh;
+}
+
+#forgot-login{
+    margin-top:4%;
+    margin-left: 35%;
+
+}
+
+
+
+
+

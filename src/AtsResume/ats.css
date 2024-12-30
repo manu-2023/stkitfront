@@ -1,0 +1,289 @@
+#scrollable-container {
+    overflow-y: auto;
+    max-height: 100vh;
+    padding: 10px;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+#ats-bg {
+    margin-top: 3%;
+}
+
+#ats-main-bg-left {
+    margin-left: 2%;
+}
+
+#why-ats {
+    margin-top: 3%;
+}
+
+#hi-ats-img {
+    margin-left: 25%;
+    width: 150%;
+    height: 100%;
+}
+
+
+#build-btn {
+    text-decoration: none;
+    margin-top: 20%;
+    font-size: large
+}
+
+
+/* PDF */
+
+
+#resume-build-bg {
+    overflow: hidden;
+    background-size: cover;
+    padding-top: 1px;
+    margin: 0;
+    background-color: rgb(254, 254, 254);
+}
+
+#resume-main-heading {
+    line-height: 130%;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+#resume-main-heading:hover {
+    cursor: pointer;
+}
+
+
+
+#card-form {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#resume-text-box {
+    width: 33%;
+    height: 45px;
+    margin-left: 1%;
+    border: 0.5px solid gray;
+
+
+}
+
+#bg-resume-dev {
+    background-color: #0074e1;
+    height: 150%;
+    width: 100%;
+    color: white;
+}
+
+
+#content-bg-resume-dev {
+    margin-left: 5%;
+    margin-top: 2%;
+    height: 100vh;
+    text-align: center;
+    width: 100%;
+    padding-top: 1px;
+}
+
+#rotate {
+    display: inline-block;
+    transform: rotate(90deg);
+    transform-origin: top left;
+    white-space: nowrap;
+    margin-left: 75%;
+    font-size: 7vw;
+    margin-top: 4.5%;
+}
+
+
+#nav-bar-resume {
+    background-color: #0074e1;
+    height: 10vh;
+    width: 90vw;
+    margin-left: 5%;
+    border-radius: 0 0 20px 20px;
+}
+
+#resume-heading {
+    margin-left: 0.9%;
+}
+
+#resume-heading:hover {
+    cursor: pointer;
+}
+
+#resume-text-area {
+    width: 33%;
+    height: 250px;
+    margin-left: 1%;
+    border: 0.5px solid gray
+}
+
+#resume-text-area-work {
+    margin-left: 1%;
+    width: 78.5%;
+    border: 0.5px solid gray;
+    height: 150px;
+
+}
+
+.work-experience-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+#resume-text-box-work {
+    width: 78.5%;
+    height: 45px;
+    margin-left: 1%;
+    border: 0.5px solid gray;
+}
+
+.label-for-dates {
+    margin-left: 1%;
+}
+
+#add-exp-btn {
+    color: #0074e1;
+    margin-top: 2%;
+    margin-left: 60%;
+}
+
+#add-exp-btn-remove {
+    color: red;
+    width: 20%;
+    margin-left: 65%;
+}
+
+#resume-heading-eductaion {
+    margin-left: 1%;
+}
+
+#resume-heading-eductaion:hover {
+    cursor: pointer;
+}
+
+/* Container for the resume section */
+#bg-resume-dev {
+    padding: 20px;
+    background-color: #0074e1;
+    /* This will be the background color */
+    min-height: 60px;
+    white-space: pre-wrap;
+    /* Preserve line breaks */
+    overflow: hidden;
+    width: 100%;
+}
+
+/* Typing effect style */
+#typewriter {
+    overflow: hidden;
+    white-space: pre-wrap;
+    /* Allow wrapping and preserve line breaks */
+    margin: 0;
+}
+
+
+#resume-text-box-education {
+    width: 33%;
+    height: 45px;
+    margin-left: 1%;
+    border: 0.5px solid gray;
+
+
+}
+
+#add-skill-btn {
+    color: #0074e1;
+    margin-top: 1%;
+    margin-left: 67%;
+}
+
+#add-skill-btn-remove {
+    color: red;
+    width: 20%;
+    margin-left: 62%;
+}
+
+#resume-text-area-certificate{
+    margin-left: 1%;
+    width: 78.5%;
+    border: 0.5px solid gray;
+    height: 80px;
+
+}
+
+#resume-main-language{
+    margin-left: 1%;
+}
+
+#languages{
+    margin-left: 1%;
+    width:30%;
+    border: 0.5px solid gray;
+    margin-bottom: 10%;
+}
+
+
+#resume-text-box-languages{
+    width: 33%;
+    height: 45px;
+    margin-left: 1%;
+    border: 0.5px solid gray;
+    margin-bottom: 1.5%;
+    
+
+
+}
+
+#language-main{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+
+#lang-btn-add{
+    color: #0074e1;
+    margin-right: 37.7%;
+    margin-bottom: 10%;
+}
+
+#lang-btn-remove{
+    color: red;
+    margin-left: 29.8%;
+}
+
+
+#resume-main-language:hover{
+    cursor: pointer;
+}
+
+#resume-submit{
+    margin-bottom: 2%;
+    width:10%;
+    margin-left: 33%;
+}
+
+.span-for-title{
+    color:#0074e1;
+}
+
+.resume-titles-download{
+    margin-bottom: 20px;
+
+}
+
+#download-view{
+    height: 100vh;
+    overflow-y: auto;
+
+}
