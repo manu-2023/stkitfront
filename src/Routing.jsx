@@ -15,7 +15,7 @@ import PaymentSub from "./Payment/PaymentSub.jsx";
 import PdfResume from "./AtsResume/pdfResume.jsx";
 import DownloadResume from "./AtsResume/DownloadResume.jsx";
 
-export const baseurl = 'http://localhost:5000'
+export const baseurl = 'https://stkitbackend-8.onrender.com';
 
 const Routing = () => {
   const [isLoading, setIsLoading] = useState(false);

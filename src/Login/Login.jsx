@@ -17,6 +17,7 @@ export default function Login() {
     const [loading, setLoading] = useState(false);
     const [user_email, setUser_email] = useState('');
     const [user_password, setUser_password] = useState('');
+    const [submit,setSubmit] = useState(false)
     const navigate = useNavigate();
 
     useEffect(() => {
@@ -62,6 +63,9 @@ export default function Login() {
             toast.error('Please fill both details correctly')
         }
         else {
+            setSubmit(true);
+            toast.info('Please Wait');
+
             const data = { user_email, user_password };
             console.log(data)
             axios.post(baseurl + '/student-login', data)
@@ -93,6 +97,7 @@ export default function Login() {
                     }
                 })
                 .catch((err) => {
+                    setSubmit(false);
                     const errorMessage = err?.response?.data || 'An unknown error occurred';
                     toast.error(errorMessage);
                 })
@@ -140,7 +145,7 @@ export default function Login() {
                                     onClick={togglePasswordVisibility}
                                 />
                                 <Link to="/forgot-password"><h6 id="forgot">Forgotten Password?</h6></Link>
-                                <button className="btn-submit" onClick={checkDetails}>Login</button>
+                                <button className="btn-submit" onClick={checkDetails} disabled={submit}>Login</button>
                                 <button type="submit" className="btn-submit-google">
                                     <img
                                         src="/Images/g-trs.png"
